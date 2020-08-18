@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">Certification App</string>
+    <string name="title_user_inform">사용자 프로필 설정</string>
+    <string name="title_bluetooth">블루투스 연결</string>
+    <string name="title_videolist">동영상 리스트</string>
+    <string name="title_videoplay">동영상 재생</string>
+    <string name="title_videolist2">동영상 리스트</string>
+    <string name="title_videoplay2">동영상 재생</string>
+
+    <string name="err_non_vaild_user_profile">모든 프로필 정보를 입력해주세요.</string>
+    <string name="dialog_wait_for_min">잠시 기다려주세요.</string>
+    <string name="alert_failed_connect">연결에 실패했습니다. 다시 시도해주세요.</string>
+    <string name="alert_disconnect">연결이 끊어졌습니다. 다시 접속해주세요.</string>
+    <string name="alert_save_file">동영상 재생 시, 저장 여부의 선택에 따라 입력된 파일명으로 자동 저장 됩니다.
+        동영상이 끝나거나 종료하시면 자동으로 저장이 끝납니다. 재생하시겠습니까?</string>
+
+    <string name="is_ok">확인.</string>
+    <string name="is_yes">예.</string>
+    <string name="is_no">아니오.</string>
+
+    <string name="rating_good">Good !!</string>
+    <string name="rating_great">Great !!</string>
+    <string name="rating_perfect">Perfect !!</string>
+
+    <string name="ref_adv">Advanced</string>
+    <string name="ref_mid">Expert</string>
+    <string name="ref_nov">Beginner</string>
+
+    <string name="instruction_v_1_1">구르기를 크게!!</string>
+    <string name="instruction_v_1_8">구르기를 크게!!</string>
+    <string name="instruction_v_1_3">스윙을 크게!!</string>
+    <string name="instruction_v_1_6">몸 회전을 크게!!</string>
+    <string name="instruction_v_1_16">더 크게!!</string>
+    <string name="instruction_v_1_16_2">더 빠르게!!</string>
+
+    <string name="instruction_v_2_1">스텝을 넓게!!</string>
+    <string name="instruction_v_2_1_2">스텝을 빠르게!!</string>
+    <string name="instruction_v_2_2">더 앉아라!!</string>
+    <string name="instruction_v_2_2_2">스텝을 빠르게!!</string>
+    <string name="instruction_v_2_3">동작을 확실하게!!</string>
+    <string name="instruction_v_2_3_2">동작을 빠르게!!</string>
+    <string name="instruction_v_2_4">더 앉으세!!</string>
+    <string name="instruction_v_2_4_2">더 뻗으세!!</string>
+    <string name="instruction_v_2_6">더 앉으세!!</string>
+    <string name="instruction_v_2_6_2">빠르게 앉으세!!</string>
+    <!--
+    <string name="instruction_v_1_1">Roll up!!</string>
+    <string name="instruction_v_1_8">Roll up!!</string>
+    <string name="instruction_v_1_3">Swing up!!</string>
+    <string name="instruction_v_1_6">Turn body!!</string>
+    <string name="instruction_v_1_16">More faster!!</string>
+    <string name="instruction_v_1_16_2">More faster!!</string>
+
+    <string name="instruction_v_2_1">Widely step!!</string>
+    <string name="instruction_v_2_1_2">Faster step!!</string>
+    <string name="instruction_v_2_2">More sit!!</string>
+    <string name="instruction_v_2_2_2">Faster step!!</string>
+    <string name="instruction_v_2_3">More correctly!!</string>
+    <string name="instruction_v_2_3_2">Faster move!!</string>
+    <string name="instruction_v_2_4">More sit up!!</string>
+    <string name="instruction_v_2_4_2">Faster stretch!!</string>
+    <string name="instruction_v_2_6">Faster sit up!!</string>
+    <string name="instruction_v_2_6_2">Faster sit up!!</string>
+     -->
+
+    <string name="name_v_1_1">Rolling like a ball</string>
+    <string name="name_v_1_8">Open leg rocker</string>
+    <string name="name_v_1_3">Double leg pull</string>
+    <string name="name_v_1_6">Criss cross</string>
+    <string name="name_v_1_16">Swimmings</string>
+
+    <string name="name_v_2_1">Side step jacks</string>
+    <string name="name_v_2_2">Criss cross squats</string>
+    <string name="name_v_2_3">Curtsy lunges</string>
+    <string name="name_v_2_4">Alteration toe tab squats</string>
+    <string name="name_v_2_6">Squat hops</string>
+
+    <!--
+    <string name="description_v_1_1">Please move your body back and forth, crouching as possible.</string>
+    <string name="description_v_1_8">Please do not bend the knee to move only about 45 degrees.</string>
+    <string name="description_v_1_3">Please move your arms and legs as large as possible.</string>
+    <string name="description_v_1_6">Please shoulders are fixed and rotate torso only.</string>
+    <string name="description_v_1_16">Please move your arms and legs as fast as possible.</string>
+
+    <string name="description_v_2_1">Please lightly the side step.</string>
+    <string name="description_v_2_2">Please lightly cross-step, please be sitting knee to 90 degrees.</string>
+    <string name="description_v_2_3">Giving back as much as possible out of the back legs diagonally, please flexing the knee.</string>
+    <string name="description_v_2_4">While bending your knees at a 90 degree angle so that the hand Please take a big toe.</string>
+    <string name="description_v_2_6">Please sit down to play about 10cm from the floor so the knee is 90 degrees.</string>
+    -->
+    <string name="description_v_1_1">몸을 최대한 웅크리고 앞뒤로 움직여주세요.</string>
+    <string name="description_v_1_8">무릎은 구부리지 말고 45도 정도만 움직여주세요.</string>
+    <string name="description_v_1_3">팔과 다리를 최대한 크게 움직여주세요.</string>
+    <string name="description_v_1_6">어깨는 고정시키고 몸통만 회전시켜주세요.</string>
+    <string name="description_v_1_16">팔과 다리를 최대한 빠르게 움직여주세요.</string>
+
+    <string name="description_v_2_1">사이드 스텝을 경쾌하게 해주세요.</string>
+    <string name="description_v_2_2">크로스 스텝을 경쾌하게 하시고 무릎이 90도가 되게 앉아주세요.</string>
+    <string name="description_v_2_3">뒷다리를 대각선으로 최대한 뒤로 빼주면서 무릎을 구부려주세요.</string>
+    <string name="description_v_2_4">무릎을 90도가 되도록 구부리면서 손으로 엄지발가락을 찍어주세요.</string>
+    <string name="description_v_2_6">바닥에서 10cm정도 뛰고 무릎이 90도가 되게 앉아주세요.</string>
+
+    <string name="bt_not_available">블루투스를 지원하지 않습니다.</string>
+    <string name="bt_is_enabled">블루투스가 활성화 되었습니다.</string>
+    <string name="bt_discover_complete">검색이 완료되었습니다.</string>
+    <string name="bt_not_enabled_leaving">블루투스 활성화가 취소되었거나 예외가 발생했습니다.</string>
+    <string name="bt_not_found">검색된 블루투스 디바이스가 없습니다..</string>
+    <string name="bt_connecting">연결 중입니다.</string>
+    <string name="bt_connected">연결되었습니다.</string>
+    <string name="bt_disconnect">연결이 종료되었습니다.</string>
+    <string name="bt_success_read_notify">데이터를 읽었습니다.</string>
+    <string name="bt_fail_read_notify">데이터를 읽기를 실패했습니다..</string>
+    <string name="bt_success_write_notify">데이터를 작성했습니다.</string>
+    <string name="bt_fail_write_notify">데이터를 쓰기를 실패했습니다..</string>
+    <string name="bt_create_file">파일을 작성했습니다.</string>
+    <string name="bt_delete_file">파일을 삭제했습니다.</string>
+
+
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="ok">확인</string>
+    <string name="accuracy">정확도</string>
+    <string name="exercise_number">운동\n횟수</string>
+    <string name="consume_calorie">소모\n칼로리</string>
+    <string name="maximum_heartrate">최대\n심박수</string>
+    <string name="total_point">Total</string>
+    <string name="point_title_small">전체%</string>
+    <string name="thisset">셋트 전체 정확도는</string>
+    <string name="pointis">% 입니다.</string>
+    <string name="count">횟수</string>
+    <string name="not_connect_band">밴드와 연결이 되지 않았습니다.</string>
+    <string name="not_prepare_video">운동용 비디오 파일이 준비되지 않았습니다.</string>
+    <string name="not_prepare_wifi">통신망 혹은 Wi-fi가 연결 되어 있지 않습니다. 연결 후 다시 실행하여주시기 바랍니다.</string>
+</resources>

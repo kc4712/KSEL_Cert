@@ -1,0 +1,339 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".activity.VideoListActivity2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/text_border"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="RawData테스트 모드"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/selectAccFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가속파일 선택" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Path : " />
+
+            <TextView
+                android:id="@+id/AccTxtPath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/selectHrFile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="심박파일 선택" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Path : " />
+
+            <TextView
+                android:id="@+id/HrTxtPath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal" >
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2" >
+
+            <TextView
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:ems="4"
+                android:text="인증시험"
+                android:textColor="#ff0000"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/play3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:background="@drawable/selector_btn_play" />
+
+
+            <TextView
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:ems="3"
+                android:text="동영상1"
+                android:textColor="#ff0000"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/play1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:background="@drawable/selector_btn_play" />
+
+            <TextView
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:ems="3"
+                android:text="동영상2"
+                android:textColor="#ff0000"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/play2"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:background="@drawable/selector_btn_play" />
+
+            <TextView
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:ems="3"
+                android:text="홍두한1"
+                android:textColor="#ff0000"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/play1_hong"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:background="@drawable/selector_btn_play" />
+
+            <TextView
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:ems="3"
+                android:text="홍두한2"
+                android:textColor="#ff0000"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/play2_hong"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:background="@drawable/selector_btn_play" />
+            
+            <TextView
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:ems="3"
+                android:text="이주영1"
+                android:textColor="#ff0000"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/play1_lee"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:background="@drawable/selector_btn_play" />
+            
+            <TextView
+                style="@style/TextShadow"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:ems="3"
+                android:text="이주영2"
+                android:textColor="#ff0000"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/play2_lee"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|top"
+                android:background="@drawable/selector_btn_play" />
+        </GridLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_border"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/chkBoxSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="저장 여부"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/chkBoxDebug"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:checked="false"
+                android:enabled="false"
+                android:text="DEBUG Mode"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="동영상 선택:"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/btnsetVideo"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="V1_1"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/chkBoxDebugPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:checked="false"
+                android:enabled="false"
+                android:text="DEBUG play"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="동영상 시작시간:" />
+
+            <EditText
+                android:id="@+id/edtStartSec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="100"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="  ※파일명에는 기본적으로 시간정보가 붙습니다."
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="저장할 파일명:"
+                android:visibility="invisible"/>
+
+            <!-- focus는 자동으로 edit으로 focus가 가는것을 막기 위한 방법으로 사용함. manifest에서 hidden을 해도 상관은 없다. -->
+
+            <EditText
+                android:id="@+id/edtFileName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="default"
+                android:visibility="invisible">
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="저장위치:"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/rootSdPath"
+            style="@style/TextShadow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+</LinearLayout>

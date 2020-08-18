@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main" >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="4" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="end|center_vertical"
+            android:text="성별:" />
+
+        <ToggleButton
+            android:id="@+id/btnSex"
+            android:layout_gravity="start|center_vertical"
+            android:textOff="남자"
+            android:textOn="여자" />
+
+        <TextView
+            android:layout_gravity="end|center_vertical"
+            android:text="나이:" />
+
+        <EditText
+            android:id="@+id/editAge"
+            android:layout_gravity="start|center_vertical"
+            android:inputType="numberDecimal"
+            android:text="20" />
+
+        <TextView
+            android:layout_gravity="end|center_vertical"
+            android:text="체중:" />
+
+        <EditText
+            android:id="@+id/editWeight"
+            android:layout_gravity="start|center_vertical"
+            android:inputType="numberDecimal"
+            android:text="70" />
+
+        <TextView
+            android:layout_gravity="end|center_vertical"
+            android:text="키:" />
+
+        <EditText
+            android:id="@+id/editHeight"
+            android:layout_gravity="start|center_vertical"
+            android:inputType="numberDecimal"
+            android:text="170" />
+        
+        
+        <TextView
+            android:layout_gravity="end|center_vertical"
+            android:text="목표체중:" />
+
+        <EditText
+            android:id="@+id/editGoalWeight"
+            android:layout_gravity="start|center_vertical"
+            android:inputType="numberDecimal"
+            android:text="65" />
+        
+        
+        <TextView
+            android:layout_gravity="end|center_vertical"
+            android:text="감량기간:" />
+
+        <EditText
+            android:id="@+id/editDietPeriod"
+            android:layout_gravity="start|center_vertical"
+            android:inputType="numberDecimal"
+            android:text="32" />
+        
+        <TextView
+            android:layout_gravity="end|center_vertical"
+            android:text="난이도:" />
+        
+		<!-- 
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/btnSetReference"
+            android:layout_gravity="start|center_vertical"
+            android:text="초급" />
+        -->
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ic_save" />
+
+</LinearLayout>

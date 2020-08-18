@@ -1,0 +1,467 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:StrokeTextView="http://schemas.android.com/apk/res/com.coach.test.myapplication"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_surface"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".activity.VideoPlayActivity" >
+
+    <FrameLayout
+        android:id="@+id/layout_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" >
+
+        <SurfaceView
+            android:id="@+id/surfaceView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/DEBUG_MODE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:text="DEBUG MODE"
+            android:textColor="@android:color/white"
+            android:textSize="50dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="450dp"
+            android:background="@drawable/text_border_blue_non_transparent"
+            android:maxEms="20"
+            android:maxLines="3"
+            android:padding="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_warnning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="450dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/text_border_warning"
+            android:maxEms="20"
+            android:maxLines="3"
+            android:padding="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_laptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/text_border_blue_non_transparent"
+            android:maxEms="20"
+            android:maxLines="3"
+            android:padding="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_instructionD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/text_border_blue_non_transparent"
+            android:maxEms="10"
+            android:maxLines="3"
+            android:padding="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="100dp"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/text_border_blue_non_transparent"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <com.coach.test.myapplication.view.StrokeTextView
+            android:id="@+id/txt_v_1_brief_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            StrokeTextView:textStroke="true"
+            StrokeTextView:textStrokeColor="#000000"
+            StrokeTextView:textStrokeWidth="10"
+            android:padding="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <com.coach.test.myapplication.view.StrokeTextView
+            android:id="@+id/txt_v_2_brief_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            StrokeTextView:textStroke="true"
+            StrokeTextView:textStrokeColor="#ffffff"
+            StrokeTextView:textStrokeWidth="10"
+            android:padding="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <com.coach.test.myapplication.view.StrokeTextView
+            android:id="@+id/txt_v_3_brief_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            StrokeTextView:textStroke="true"
+            StrokeTextView:textStrokeColor="#ffffff"
+            StrokeTextView:textStrokeWidth="10"
+            android:padding="20dp"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_two_play"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_main"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_weight="1"
+                android:src="@drawable/bg_burn" />
+
+            <TextView
+                android:id="@+id/detailsView1_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_weight="1"
+                android:src="@drawable/bg_counter" />
+
+            <TextView
+                android:id="@+id/detailsView2D_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_weight="1"
+                android:src="@drawable/bg_accuracy" />
+
+            <TextView
+                android:id="@+id/accuracyView1D_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_blue1"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView2D_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_blue1_to_orange2"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView3D_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_orange3"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView4D_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_orange3_to_red4"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView5D_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_red5"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_debug_play"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_main"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_weight="1"
+                android:src="@drawable/bg_burn" />
+
+            <TextView
+                android:id="@+id/detailsView1D"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_weight="1"
+                android:src="@drawable/bg_counter" />
+
+            <TextView
+                android:id="@+id/detailsView2D"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_weight="1"
+                android:src="@drawable/bg_accuracy" />
+
+            <TextView
+                android:id="@+id/accuracyView1D"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_blue1"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView2D"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_blue1_to_orange2"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView3D"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_orange3"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView4D"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_orange3_to_red4"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView5D"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_red5"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_main" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_weight="1"
+                android:src="@drawable/bg_burn" />
+
+            <TextView
+                android:id="@+id/detailsView1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_weight="1"
+                android:src="@drawable/bg_counter" />
+
+            <TextView
+                android:id="@+id/detailsView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="23dp"
+                android:layout_weight="1"
+                android:src="@drawable/bg_accuracy" />
+
+            <TextView
+                android:id="@+id/accuracyView1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_blue1"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_blue1_to_orange2"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_orange3"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_orange3_to_red4"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accuracyView5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/text_border_gradient_red5"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
